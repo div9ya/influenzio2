@@ -248,7 +248,7 @@ def error(e):
 
 @app.route('/redirect-to-django')
 def redirect_to_django():
-    return redirect("http://127.0.0.1:8000/login/", code=302)
+    return "working"
 
 
 
